@@ -1,0 +1,60 @@
+/* ALL DIVS (required by instructions) */
+div {
+  margin: 20px 10px;          /* top/bottom 20, left/right 10 */
+  padding: 20px;
+  border: 5px solid #ccc;
+  background-color: white;
+}
+
+/* PARAGRAPH STYLING */
+p {
+  font-family: Papyrus, sans-serif;
+  font-size: 20px;
+  background-color: white;
+  padding: 20px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* BACKGROUND IMAGE */
+body {
+  background-image: url("../images/thearb.jpg");
+}
+
+/* HEADING */
+h2 {
+  color: blue;
+  font-size: 36px;
+  text-align: center;
+  background-color: white;
+}
+
+/* DOUBLE SPACED PARAGRAPH UNDER H2 */
+h2 + p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+.dining-gallery {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  gap: 10px;
+
+  padding: 10px;
+  border: 5px solid #ccc;
+  background-color: #f5f5f5;
+
+  margin: 20px auto;
+
+    justify-content: center;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+/* IMAGES */
+.dining-gallery img {
+  width: 90%;
+  height: 100%;
+  border-radius: 10px;
+  display: block;
+}

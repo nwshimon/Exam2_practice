@@ -1,0 +1,101 @@
+div {
+    margin: 20px 10px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    background-color: white;
+}
+
+p {
+    font-family: papyrus sans-serif;
+    font-size: 20px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+body { 
+    /* put under "body" so image appears in the background */
+   background-image: url("../images/thearb.jpg");
+}  
+
+h2 {
+    color: blue;
+    font-size: 36px;
+    text-align: center;
+    background-color: white;
+}
+
+h2 + p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+/* div > p { */
+    /* font-size: 20px; */
+    /* line-height: 200%; or 2 also works */
+/* } */
+
+/* .dining-gallery { */
+    /* display: grid; */
+    /* grid-template-columns: 30% 30% 40%; */
+    /* gap: 10px; */
+
+    /* padding: 10px; */
+    /* border: 5px solid #ccc; */
+    /* background-color: #f5f5f5; */
+    /* justify-content: center; */
+    /* justify-items: stretch; */
+    /* align-items: stretch; */
+    
+    /* margin: 0 30px; */
+
+    /* justify-items: stretch; */
+/* } */
+
+.dining-gallery {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  gap: 10px;
+
+  padding: 10px;
+  border: 5px solid #ccc;
+  background-color: #f5f5f5;
+
+  margin: 0 30px;
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.dining-gallery img {
+  width: 100%;
+  height: 280px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}
+
+/* examples: */
+
+/* .dining-gallery {
+  display: grid;
+  border: solid;
+  align-items: center;     /* vertical alignment inside cells */
+  /*justify-items: center;   /* horizontal alignment inside cells */
+/*} */
+
+/* .dining-gallery { */
+  /* display: grid; */
+  /* justify-content: center; */
+  /*align-content: center; /* does the same thing as justify-content */
+/* } */
+
+/* time to actually edit the CHILD elements of img INSIDE .dining-gallery class! */
+
+/* .dining-gallery img { */
+  /* width: 100%; */
+  /* height: 200px; */
+  /* border-radius: 10px; */
+  /* display: block; */
+/* } */
